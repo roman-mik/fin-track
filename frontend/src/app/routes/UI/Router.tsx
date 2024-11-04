@@ -1,4 +1,7 @@
-import { RouterProvider } from "react-router-dom";
-import { createRouter } from "../lib/createRouter";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-export const FinTrackRouter = () => <RouterProvider router={createRouter()} />;
+import { routes } from '../constants/routes';
+
+const router = createBrowserRouter(routes);
+
+export const FinTrackRouter = () => <RouterProvider router={router} />;
