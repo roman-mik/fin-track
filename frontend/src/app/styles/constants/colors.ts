@@ -1,6 +1,4 @@
-import { defineTokens } from '@chakra-ui/react';
-
-export const colors = defineTokens({
+export const colors = {
   colors: {
     teal: {
       50: { value: '#e0f7f7' },
@@ -55,9 +53,9 @@ export const colors = defineTokens({
       secondary: { value: '#333333' }, // Dark Gray for lighter subtext
     },
   },
-});
+};
 
-export const semanticColors = defineTokens({
+export const semanticColors = {
   colors: {
     primary: { value: '{color.teal.DEFAULT}' },
     secondary: { value: '{color.navy.DEFAULT}' },
@@ -65,4 +63,4 @@ export const semanticColors = defineTokens({
     neutral: { value: '{color.gray.DEFAULT}' },
     text: { value: '{color.black.DEFAULT}' },
   },
-});
+};
