@@ -7,10 +7,10 @@ This roadmap focuses on the frontend development of **FinTrack**, a web app for 
 ## **Phase 1: Initial Setup**
 
 ### 1.1 - **Project Setup**
-- [ ] Set up the frontend environment using **Next.js** for server-side rendering and routing.
-- [ ] Integrate **Chakra UI** for the design system, including custom themes and global styles.
-- [ ] Set up **TypeScript** for type safety and **ESLint** for code quality.
-- [ ] Initialize the GitHub repository and configure continuous integration (CI) for automated testing and deployment.
+- [x] Set up the frontend environment using **React.js** and **Vite**.
+- [x] Integrate **Chakra UI** for the design system, including custom themes and global styles.
+- [x] Set up **TypeScript** for type safety and **ESLint** for code quality.
+
 
 ### 1.2 - **Basic Layout & Navigation**
 - [ ] Create the main layout (header, footer, and navigation).
