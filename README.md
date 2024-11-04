@@ -2,6 +2,9 @@
 
 FinTrack is a web application designed to help users track their monthly income and expenses. Whether you're managing personal finances or tracking a household budget, FinTrack provides a clear overview of your cash flow, enabling you to make smarter financial decisions.
 
+## Roadmap
+[FE Roadmap](./frontend/roadmap.md).
+
 ## Features
 
 - Add, edit, and delete income and expense entries
